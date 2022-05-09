@@ -61,6 +61,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         return true;
+
     }
 
     boolean isEmailValid(String email) {
