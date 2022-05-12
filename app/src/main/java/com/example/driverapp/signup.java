@@ -31,10 +31,10 @@ public class signup extends AppCompatActivity {
     }
 
     void viewInitializations() {
-        fullname = findViewById(R.id.fullname);
-        email = findViewById(R.id.email);
-        password = findViewById(R.id.password);
-        passwordconfirm = findViewById(R.id.passwordconfirm);
+        fullname = findViewById(R.id.inputUsername);
+        email = findViewById(R.id.InputEmail);
+        password = findViewById(R.id.inputPassword);
+        passwordconfirm = findViewById(R.id.inputConfirmPassword);
 
         // To show back button in actionbar
         //getSupportActionBar().setDisplayHomeAsUpEnabled(true);

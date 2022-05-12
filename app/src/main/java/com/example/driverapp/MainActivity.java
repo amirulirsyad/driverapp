@@ -33,8 +33,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     void viewIntializations() {
-        email = findViewById(R.id.email);
-        password = findViewById(R.id.password);
+        email = findViewById(R.id.InputEmail);
+        password = findViewById(R.id.inputPassword);
     }
 
     boolean validateInput() {

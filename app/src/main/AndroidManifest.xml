@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DriverApp">
         <activity
-            android:name=".signup_phoneNum"
+            android:name=".signin_phoneNum"
             android:exported="false" />
         <activity
             android:name=".signup"
